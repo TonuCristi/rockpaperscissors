@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, papers, scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls-title-score">
+        <div class="you-controls">
+          <h3 class="you">You:</h3>
+          <p>Press "a" for rock</p>
+          <p>Press "s" for paper</p>
+          <p>Press "d" for scissors</p>
+        </div>
+        <div class="title-score">
+          <h1 class="game-name">Rock, paper, scissors</h1>
+          <div class="score">
+            <p class="you-score">0</p>
+            <h3>:Score:</h3>
+            <p class="enemy-score">0</p>
+          </div>
+        </div>
+        <div class="enemy-controls">
+          <h3 class="enemy">Enemy:</h3>
+          <p>Press "j" for rock</p>
+          <p>Press "k" for paper</p>
+          <p>Press "l" for scissors</p>
+        </div>
+      </div>
+      <div class="game">
+        <div class="you-choice"></div>
+        <div class="status"></div>
+        <div class="enemy-choice"></div>
+      </div>
+      <div class="reset-btn">Reset</div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

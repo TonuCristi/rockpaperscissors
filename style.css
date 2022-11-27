@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+body {
+  background: rgb(26, 26, 26);
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+}
+.controls-title-score {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  color: white;
+}
+.you-controls {
+  text-transform: uppercase;
+  word-spacing: 2px;
+  color: rgb(82, 82, 255);
+}
+.enemy-controls {
+  text-transform: uppercase;
+  word-spacing: 2px;
+  color: rgb(255, 55, 55);
+}
+.score {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.you-score {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(82, 82, 255);
+}
+.enemy-score {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(255, 55, 55);
+}
+.game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+}
+.you-choice {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(82, 82, 255);
+  text-transform: uppercase;
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid white;
+  width: 140px;
+  height: 40px;
+}
+.enemy-choice {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(255, 55, 55);
+  text-transform: uppercase;
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid white;
+  width: 140px;
+  height: 40px;
+}
+.status {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  border: 3px solid white;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.reset-btn {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
